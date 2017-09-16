@@ -48,10 +48,16 @@ id=sc.nextInt();
 
 	public void setId(int id) {
 
+
+
 		this.id = id;
+
 	}
 
 	public String getFullName() {
+String fullName;
+Scanner sc=new Scanner(System.in);
+ String fullNmae=sc.nextLine();
 		return fullName;
 	}
 
