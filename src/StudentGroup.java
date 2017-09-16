@@ -62,50 +62,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void remove(int index) {
-int size, j, n, count=0;
-
-       System.out.print("Enter Array Size : ");
-       size = scan.nextInt();
-
-       System.out.print("Enter Array Elements : ");
-       for(; index<size; index++)
-       {
-           array[index] = scan.nextInt();
-       }
-
-       System.out.print("Enter Element to be Delete : ");
-       n = scan.nextInt();
-       for(; i<size; i++)
-       {
-           if(array[index]>0||array[index]<0)
-           {
-               for(int j=index; j<(size-1); j++)
-               {
-                   array[j] = array[j+1];
-             
-               count++;
-               break;
-           }
-           else{
-            throw new IllegalArgumentException("The parent path cannot be ");
-
-           }
-       }
-       if(count==0)
-       {
-           System.out.print("Element Not Found..!!");
-       }
-       else
-       {
-           System.out.print("Element Deleted Successfully..!!");
-           System.out.print("\nNow the New Array is :\n");
-           for(i=0; i<(size-1); i++)
-           {
-               System.out.print(array[index]+ " ");}}
-               }
-	}
-
-	
+		// Add your implementation here
 	}
 
 	@Override
@@ -119,7 +76,7 @@ int size, j, n, count=0;
 	}
 
 	@Override
-	public void removeFromIndex(int index){
+	public void removeFromElement(Student student) {
 		// Add your implementation here
 	}
 

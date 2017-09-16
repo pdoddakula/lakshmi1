@@ -2,8 +2,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		 StudentGroup x=new  StudentGroup();
-x.getId();
-x.getFullName();
+		//You may test that your code works find here
+		//Please check that your code works and has no 
+		//compilation problems before to submit
+	}
 
 }
